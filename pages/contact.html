@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Contact Us Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="shortcut icon" href="/images/logo_highres.png" type="image/x-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700|Indie+Flower" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="../css/aos.css">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- SweetAlert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div class="site-wrap" id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <!-- nav-bar -->
+    <header class="site-navbar site-navbar-target" role="banner">
+
+      <div class="container mb-3">
+        <div class="d-flex align-items-center">
+          <div class="site-logo mr-auto">
+            <a href="/index.html"><img src="../images/logo.png" style="width: 250px; height: 60px;"></a>
+          </div>
+            <div class="site-quick-contact d-none d-lg-flex ml-auto ">
+            <div class="d-flex site-info align-items-center mr-3">
+              <p class="block-icon mr-3">
+                <a href="login.html" class="btn btn-blue text-white btn-custom-1 py-3 px-4 ml-auto mt-3">
+                  Login </a>
+              </p>
+            </div>
+            <div class="d-flex site-info align-items-center">
+              <p class="block-icon mr-3">
+                <a href="register.html" class="btn btn-primary btn-custom-1 py-3 px-4 ml-auto mt-3 for-logging">
+                  Sign Up</a>
+              </p>
+            </div>
+            <span class="profile-icon"></span>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="menu-wrap d-flex align-items-center">
+          <span class="d-inline-block d-lg-none">
+            <a href="#" class="text-black site-menu-toggle js-menu-toggle py-5">
+              <span class="icon-menu h3 text-black"></span>
+            </a>
+          </span>
+
+          <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
+            <ul class="site-menu main-menu js-clone-nav mr-auto ">
+              <li><a href="../index.html" class="nav-link">Home</a></li>
+              <li><a href="about.html" class="nav-link">About</a></li>
+              <li><a href="../index.html#courses" class="nav-link">Courses</a></li>
+              <li><a href="steamies.html" class="nav-link">Steamies</a></li>
+              <li class="active"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="top-social ml-auto">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.tiktok.com/login"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <div class="ftco-blocks-cover-1">
+      <div class="site-section-cover overlay " id="contact-head" data-stellar-background-ratio="0.5"
+        style="background-image: url('../images/hero_1.jpg') ;height: 300px;">
+        <div class="container">
+          <div class="row align-items-center ">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="site-section bg-light" id="contact-section">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-7 text-center mb-5">
+            <h1> <span class="text-red">Get In Touch </span> Using The Contact Form </h1>
+            <p>Have questions or feedback? We’d love to hear from you! Fill out the form below, and we’ll get back to
+              you shortly.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mb-5">
+            <!-- Contact Form -->
+            <form id="contactForm" action="javascript:void(0);" method="post">
+              <div class="form-group row">
+                <div class="col-md-6 mb-4 mb-lg-0">
+                  <input type="text" class="form-control" id="contactFirstName" placeholder="First name"
+                    name="first-name">
+                  <p id="nameError" class="error" style="color:red;"></p> <!-- Name Error -->
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="contactLastName" placeholder="Last name" name="last-name">
+                  <p id="lastNameError" class="error" style="color:red;"></p> <!-- Last Name Error -->
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" class="form-control" id="contactEmail" placeholder="Email address"
+                    name="con-email">
+                  <p id="emailError" class="error" style="color:red;"></p> <!-- Email Error -->
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <textarea id="contactMessage" class="form-control" placeholder="Write your message." cols="30"
+                    rows="7" name="msg"></textarea>
+                  <p id="messageError" class="error" style="color:red;"></p> <!-- Message Error -->
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-6 mr-auto">
+                  <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5 submitt" value="Send Message"
+                    onclick="validateForm()">
+                </div>
+              </div>
+              <p id="contactResult" class="result"></p> <!-- Submission Result -->
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-lg-4 ml-auto">
+            <div class="bg-white p-3 p-md-5">
+              <h3 class="text-black mb-4">Contact Info</h3>
+              <ul class="list-unstyled footer-link">
+                <li class="d-block mb-3">
+                  <span class="d-block text-black"><i class="fa-solid fa-location-dot" style="color: #fd4d40;"></i>
+                    Address:</span>
+                  <span>Amman,Jordan</span>
+                </li>
+                <li class="d-block mb-3"><span class="d-block text-black"><i class="fa-solid fa-phone"
+                      style="color: #fd4d40;"></i> Phone:</span><span>+962 772694988</span></li>
+                <li class="d-block mb-3"><span class="d-block text-black"><i class="fa-solid fa-envelope"
+                      style="color: #fd4d40;"></i> Email:</span><span>steamkiddy@gmail.com</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script>
+      function validateForm() {
+        let firstName = document.getElementById("contactFirstName").value;
+        let lastName = document.getElementById("contactLastName").value;
+        let email = document.getElementById("contactEmail").value;
+        let message = document.getElementById("contactMessage").value;
+
+        let nameError = document.getElementById("nameError");
+        let lastNameError = document.getElementById("lastNameError");
+        let emailError = document.getElementById("emailError");
+        let messageError = document.getElementById("messageError");
+
+        // Reset errors
+        nameError.innerHTML = "";
+        lastNameError.innerHTML = "";
+        emailError.innerHTML = "";
+        messageError.innerHTML = "";
+
+        // Validate input
+        let isValid = true;
+        const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+        if (firstName === "") {
+          nameError.innerHTML = "First name is required";
+          isValid = false;
+        }
+        if (lastName === "") {
+          lastNameError.innerHTML = "Last name is required";
+          isValid = false;
+        }
+        if (email === "" || !emailPattern.test(email)) {
+          emailError.innerHTML = "Valid email is required";
+          isValid = false;
+        }
+        if (message === "") {
+          messageError.innerHTML = "Message is required";
+          isValid = false;
+        }
+
+        // If all fields are valid, show success message
+        if (isValid) {
+          Swal.fire({
+            title: 'Message Sent!',
+            text: 'Thank you for contacting us. We will get back to you shortly.',
+            icon: 'success',
+            confirmButtonText: 'OK'
+          }).then(() => {
+            // Optionally reset the form after submission
+            document.getElementById("contactForm").reset();
+          });
+        }
+      }
+    </script>
+
+    <script src="../js/checklogPages.js"></script>
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/jquery-migrate-3.0.0.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/jquery.animateNumber.min.js"></script>
+    <script src="/js/jquery.fancybox.min.js"></script>
+    <script src="/js/jquery.stellar.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/bootstrap-datepicker.min.js"></script>
+    <script src="/js/aos.js"></script>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/main2.js"></script>
+
+</body>
+
+</html>

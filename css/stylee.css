@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+body {
+    background-color: #343a401a;
+    font-family: 'Indie Flower, cursive' !important;
+}
+
+.home {
+    margin-right: 50px;
+}
+
+.home h2 {
+    font-family: 'Numans', sans-serif;
+    font-size: 2em;
+    color: #343a40;
+}
+
+.home img {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.container,
+.signup-container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.card {
+    height: 470px;
+    width: 400px;
+    margin-top: 100px;
+    margin-right: 20px;
+    background: rgba(255, 255, 255, 0.685);
+    backdrop-filter: blur(15px);
+    padding: 20px;
+
+}
+
+.form-section {
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.685);
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.welcome-section {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+.social_icon a {
+    font-size: 30px;
+    margin-left: 10px;
+    color: #fd5b4e;
+    transition: color 0.3s ease;
+}
+
+.social_icon a:hover {
+    color: #fd5a4e73;
+    cursor: pointer;
+}
+
+.card-header h3,
+.welcome-section h1 {
+    color: #fd5b4e;
+    font-weight: bold;
+    text-align: left;
+
+
+}
+
+.input-group-prepend span,
+.input-container input {
+    width: 40px;
+    background-color: #fd5b4e;
+    color: black;
+    border: 0;
+}
+
+input:focus,
+.input-container input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #FFC312;
+}
+
+.remember {
+    color: #fd5b4e;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn,
+.form-section button {
+    color: black;
+    background-color: #fd5b4e;
+    width: 100px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.login_btn:hover,
+.form-section button:hover {
+    color: black;
+    background-color: #fd5a4e6c;
+}
+
+.links {
+    color: #fd5b4e;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+
+.input-group-text,
+.login_btn,
+.form-section button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.form-section {
+    padding: 20px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.con-input {
+    background: rgba(255, 255, 255, 0.511);
+}
+
+.footer-text {
+    color: #F0C22E;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .card,
+    .form-section,
+    .cards {
+        width: 300px;
+        margin-right: 10px;
+    }
+
+    .container,
+    .signup-container {
+        justify-content: center;
+    }
+}
+
+/* /* For screens with a maximum width of 992px / */
+@media only screen and (max-width: 992px) {
+
+    .card,
+    .form-section,
+    .cards {
+        width: 250px;
+        margin-right: 5px;
+    }
+
+    .container,
+    .signup-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* / For screens with a maximum width of 768px / */
+@media only screen and (max-width: 768px) {
+
+    .card,
+    .form-section,
+    .cards {
+        width: 200px;
+        margin-right: 0;
+    }
+
+    .container,
+    .signup-container {
+        padding: 20px;
+    }
+}
+/* / For screens with a maximum width of 480px */
+@media only screen and (max-width: 480px) {
+
+    .card,
+    .form-section,
+    .cards {
+        width: 150px;
+        margin-right: 0;
+    }
+
+    .container,
+    .signup-container {
+        padding: 10px;
+    }
+}
+
+.back_btn{
+    margin-left: 20px;
+    background-color: #fd5b4e;
+    margin-top: 20px;
+    color: black;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-self: center;
+}
+
+.back-btn :hover{
+color: black;
+background-color: #fd5a4e6c;
+}

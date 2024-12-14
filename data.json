@@ -1,0 +1,447 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "name": "World of Dinosaurs",
+        "description": "Take an exciting journey to learn about the different types of dinosaurs and their history.",
+        "image": "images/dinosaurs.jpg",
+        "course_video": "https://www.youtube.com/embed/dktnOPfE7Dc?si=5cTj74unvkJLjuYH",
+        "target_age": "5-7",
+        "rate": 4.9,
+        "enrollment":"15-10-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "science",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Jessica Green",
+            "comment": "A fun and educational course, perfect for my dinosaur-obsessed kid.",
+            "date": "10:00 AM --- 1-1-2024"
+          },
+          {
+            "user": "Tommy Lee",
+            "comment": "Great visuals and easy to understand for young children!",
+            "date": "10:00 AM --- 1-1-2024"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Exploring the Solar System",
+        "description": "Learn about the planets, stars, and the wonders of space through exciting visuals and simple lessons.",
+        "image": "images/solarSystem.jpg",
+        "course_video": "https://www.youtube.com/embed/iWNuW0_ycxc?si=fhZA6CyajrkZL6vF",
+        "target_age": "7-10",
+        "rate": 4.8,
+        "enrollment":"15-11-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "science",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Lucas Thompson",
+            "date": "10:00 AM --- 1-1-2024",
+            "comment": "My son loved learning about space, the visuals were great!"
+          },
+          {
+            "user": "Isabella Harris",
+            "date": "10:00 AM --- 1-1-2024",
+            "comment": "The content was perfectly suited for my daughter’s age and very engaging."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Animal Habitats",
+        "description": "Discover different animal habitats and learn how animals adapt to their environments.",
+        "image": "images/AnimalHabitats.webp",
+        "course_video": "https://www.youtube.com/embed/Xj1ASC-TlsI?si=CrdXp86loaGHgai_",
+        "target_age": "6-8",
+        "rate": 4.7,
+        "enrollment":"15-12-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "science",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Olivia James",
+            "date": "10:00 AM --- 1-1-2024",
+            "comment": "My daughter enjoyed learning about animals and their homes."
+          },
+          {
+            "user": "David Moore",
+            "date": "10:00 AM --- 1-1-2024",
+            "comment": "A great educational experience with beautiful visuals!"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Coding with Scratch",
+        "description": "Learn basic coding concepts using Scratch, a visual programming language designed for kids.",
+        "image": "images/scratch.jpg",
+        "course_video": "https://www.youtube.com/embed/_cTyVq1KHME?si=1oqborO4_fVXQhhz",
+        "target_age": "8-12",
+        "rate": 4.8,
+        "enrollment":"22-4-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "technology",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Jennifer Brown",
+            "date": "10:00 AM --- 1-1-2024",
+            "comment": "This course was a great way to introduce my son to coding in a fun way."
+          },
+          {
+            "user": "David Clark",
+            "date": "10:00 AM --- 1-1-2024",
+            "comment": "Scratch is a fantastic tool for teaching kids how to code, highly recommend!"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Building a Simple Website",
+        "description": "Teach kids how to create a basic website using HTML and simple web development concepts.",
+        "image": "images/introCoding.avif",
+        "course_video": "https://www.youtube.com/embed/BpgAzeU0w-s?si=TQcNTABv4x4qfhtC",
+        "target_age": "9-12",
+        "rate": 4.6,
+        "enrollment":"2-5-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "technology",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Sophie Adams",
+            "date": "10:00 AM --- 1-1-2024",
+            "comment": "My son loved building his first website, and it was very easy to follow!"
+          },
+          {
+            "user": "Jake Wilson",
+            "date": "10:00 AM --- 1-1-2024",
+            "comment": "Great introduction to web development for kids."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Programming Basics",
+        "description": "Learn how to control simple robots and program basic commands through block-based programming.",
+        "image": "images/robotsKids.webp",
+        "course_video": "https://www.youtube.com/embed/uNfUAJBuZ0s?si=uELSVECxuGSo3035",
+        "target_age": "7-10",
+        "rate": 4.7,
+        "enrollment":"10-2-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "technology",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Alex Turner",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "My son had so much fun learning to program robots!"
+          },
+          {
+            "user": "Mia Sanchez",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "A really engaging way to introduce kids to robotics and programming."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Building Simple Machines",
+        "description": "Introduce young learners to the basics of engineering by building simple machines using everyday objects.",
+        "image": "images/simpleMachines.jpg",
+        "course_video": "https://www.youtube.com/embed/LSfNYpCprw4?si=CmYQm1bs1UjAB0cg",
+        "target_age": "6-8",
+        "rate": 4.9,
+        "enrollment":"15-3-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "engineering",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Anna Lewis",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "A great introduction to engineering concepts! My son loved the hands-on activities."
+          },
+          {
+            "user": "Mike Roberts",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "Perfect for young kids who are curious about how things work."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Lego Challenges",
+        "description": "Develop engineering skills through fun Lego challenges designed for young builders.",
+        "image": "images/LegoChallenges.jpg",
+        "course_video": "https://www.youtube.com/embed/XE5QlYE8oYY?si=t0EDFtReLzgfcanE",
+        "target_age": "7-9",
+        "rate": 4.8,
+        "enrollment":"1-3-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "engineering",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "George Hall",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "My kids loved the Lego challenges and learned so much about building!"
+          },
+          {
+            "user": "Carla Evans",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "Fun and educational, perfect for my son."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Build Your Own Bridge",
+        "description": "Learn the basics of structural engineering by designing and building a small bridge using household materials.",
+        "image": "images/DesignYourOwnBridge.avif",
+        "course_video": "https://www.youtube.com/embed/lYVjbHJ1Jbc?si=mKpKHmi9Us6X5P3E",
+        "target_age": "8-12",
+        "rate": 4.7,
+        "enrollment":"6-7-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "engineering",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Lily Martin",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "A great way for kids to learn problem-solving through hands-on activities."
+          },
+          {
+            "user": "Henry Scott",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "My daughter had so much fun building her bridge and learning about engineering!"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Creative Arts and Crafts",
+        "description": "Explore different art forms using simple materials, perfect for kids to unleash their creativity.",
+        "image": "images/creative-art.jpg",
+        "course_video": "https://www.youtube.com/embed/xSsdnC896pU?si=gV9u0xXbyJyF3Dnk",
+        "target_age": "4-7",
+        "rate": 4.7,
+        "enrollment":"4-8-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "art",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Sarah Peterson",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "My daughter had so much fun creating her own little art projects."
+          },
+          {
+            "user": "Tom Willis",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "Great for helping kids develop their creativity while having fun!"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Learning Through Music",
+        "description": "Develop listening skills and rhythm through fun musical games and songs.",
+        "image": "images/musicLesson.webp",
+        "course_video": "https://www.youtube.com/embed/MvDUFc88Qec?si=WhZYi1Vi9mvVVM0Y",
+        "target_age": "4-6",
+        "rate": 4.7,
+        "enrollment":"12-7-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "art",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Chris Foster",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "My little one had so much fun with this course and now loves music!"
+          },
+          {
+            "user": "Amy Grant",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "Great way to introduce music to young kids!"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Storytelling and Illustration",
+        "description": "Help kids develop their creativity by writing stories and illustrating them through fun drawing activities.",
+        "image": "images/storyTelling.jpg",
+        "course_video": "https://www.youtube.com/embed/dUXk8Nc5qQ8?si=uKrToJGVkYDbmqX6",
+        "target_age": "6-9",
+        "rate": 4.8,
+        "enrollment":"28-1-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "art",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Emma Taylor",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "My daughter loved creating her own stories and illustrating them!"
+          },
+          {
+            "user": "Oliver Brown",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "A perfect combination of creative writing and drawing for kids."
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Math with Fun Puzzles",
+        "description": "Develop math skills through fun and interactive puzzles designed for young learners.",
+        "image": "images/basicMath.avif",
+        "course_video":"https://www.youtube.com/embed/YyVXkg1KNt8?si=F5bxV3YEdafR7VmR",
+        "target_age": "6-9",
+        "rate": 4.6,
+        "enrollment":"30-9-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "math",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Emily White",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "My daughter enjoyed the math puzzles and learned a lot while playing."
+          },
+          {
+            "user": "Steve Young",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "Fun way to teach basic math concepts to kids!"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Geometry Shapes",
+        "description": "Learn the basics of geometry through fun activities, like identifying and drawing shapes.",
+        "image": "images/introShapes.jpg",
+        "course_video": "https://www.youtube.com/embed/MnOKD_I6vSU?si=z5qXxkI-1q0BuQq4",
+        "target_age": "7-10",
+        "rate": 4.7,
+        "enrollment":"13-2-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "math",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Sophia Brooks",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "My son loved learning about shapes, and it helped him in school."
+          },
+          {
+            "user": "Benjamin King",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "Great way to introduce geometry in a fun and easy way."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Counting and Numbers",
+        "description": "Help young children develop counting skills and number recognition through fun games.",
+        "image": "images/countingNumbers.jpg",
+        "course_video": "https://www.youtube.com/embed/yi2caADuDfQ?si=aDqeJRLPHvoc9OoQ",
+        "target_age": "4-6",
+        "rate": 4.8,
+        "enrollment":"1-1-2024",
+        "youWillLearn": "Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.Learn the latest technologies, including Javascript, React, Node and even Web3 development.",
+        "type": "math",
+        "duration": "1 hour",
+        "comments": [
+          {
+            "user": "Olivia Wright",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "My daughter had so much fun learning numbers through the games."
+          },
+          {
+            "user": "Charlie Miller",
+            "date": "10:00 AM --- 1-1-2024",
+            "image": "images/craftingEvent.jpg",
+            "comment": "An engaging way to teach young kids how to count!"
+          }
+        ]
+      }
+    ],
+  
+
+    "testimonials": [
+      {
+        "image": "images/model1.jpg",
+        "name": "Rachel Adams",
+        "comment": "This platform has been a fantastic way for my children to learn in a fun and interactive manner. They especially enjoyed the coding and math courses!"
+      },
+      {
+        "image": "images/model2.jpg",
+        "name": "John Cooper",
+        "comment": "I’ve seen noticeable improvements in my son's problem-solving skills after taking the engineering and science courses. Highly recommended!"
+      },
+      {
+        "image": "images/model3.jpg",
+        "name": "Emily Johnson",
+        "comment": "The art and creativity courses are so engaging! My daughter spends hours drawing and creating, and she loves it."
+      }
+    ],
+    "events": [
+    {
+      "name": "Kids Coding Hackathon",
+      "date": "2024-10-21",
+      "image": "images/codingEvent.webp",
+      "duration": "4 hours",
+      "brief": "A fun and engaging coding event where children ages 8-12 can participate in coding challenges, collaborate with peers, and showcase their programming skills using Scratch.",
+      "location": "Amman"
+    },
+    {
+      "name": "Art & Craft Workshop: Build",
+      "date": "2024-12-05",
+      "image": "images/craftingEvent.jpg",
+      "duration": "3 hours",
+      "brief": "Children aged 5-9 can unleash their creativity in this workshop where they’ll design and create their own artistic collages using colorful materials.",
+      "location": "Irbid"
+    },
+    {
+      "name": "Math Challenge Day: Puzzle Fun",
+      "date": "2024-11-10",
+      "image": "images/mathEvent.webp",
+      "duration": "1.5 hours",
+      "brief": "A day full of fun math puzzles and games for children aged 7-10. Boost their problem-solving skills while enjoying interactive math challenges.",
+       "location":"Zarqa"
+    }
+  ]
+
+}
+  
+  

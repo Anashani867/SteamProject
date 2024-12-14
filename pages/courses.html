@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Courses Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/images/logo_highres.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700|Indie+Flower" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="../css/aos.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+    <div class="site-wrap" id="home-section">
+
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+
+        <!-- nav-bar -->
+        <header class="site-navbar site-navbar-target" role="banner">
+
+            <div class="container mb-3">
+                <div class="d-flex align-items-center">
+                    <div class="site-logo mr-auto">
+                        <a href="/index.html"><img src="/images/logo.png" style="width: 250px; height: 60px;"></a>
+                    </div>
+                      <div class="site-quick-contact d-none d-lg-flex ml-auto ">
+            <div class="d-flex site-info align-items-center mr-3">
+              <p class="block-icon mr-3">
+                <a href="login.html" class="btn btn-blue text-white btn-custom-1 py-3 px-4 ml-auto mt-3">
+                  Login </a>
+              </p>
+            </div>
+            <div class="d-flex site-info align-items-center">
+              <p class="block-icon mr-3">
+                <a href="register.html" class="btn btn-primary btn-custom-1 py-3 px-4 ml-auto mt-3 for-logging">
+                  Sign Up</a>
+              </p>
+            </div>
+            <span class="profile-icon"></span>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="menu-wrap d-flex align-items-center">
+                    <span class="d-inline-block d-lg-none">
+                        <a href="#" class="text-black site-menu-toggle js-menu-toggle py-5">
+                            <span class="icon-menu h3 text-black"></span>
+                        </a>
+                    </span>
+
+                    <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav mr-auto ">
+                            <li><a href="/index.html" class="nav-link">Home</a></li>
+                            <li><a href="about.html" class="nav-link">About</a></li>
+                            <li class="active"><a href="../index.html#courses" class="nav-link">Courses</a></li>
+                            <li><a href="steamies.html" class="nav-link">Steamies</a></li>
+                            <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="top-social ml-auto">
+                        <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/login"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="ftco-blocks-cover-1">
+            <div class="site-section-cover overlay" id="course-head" data-stellar-background-ratio="0.5"
+                style="background-image: url('/images/hero_1.jpg')">
+                <div class="container">
+                    <div class="row align-items-center ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="video-section">
+                <h1 id="course-name"></h1>
+                <iframe width="90%" height="400px" src="https://www.youtube.com/embed/wE8s993ZV-8" frameborder="0"
+                    allowfullscreen class="course-video" id="course-video">
+                </iframe>
+            </div>
+
+            <div class="info-section content">
+                <h2  style="padding: 10px;">Course Details:</h2>
+                <p id="course-detail"></p>
+                <div class="course-icons">
+                    <p id="age"><i class="fa-solid fa-child" style="color:#f2588b;"></i> </p>
+                    <p id="duration"><i class="fa-solid fa-clock" style="color:#2591e8;"></i> </p>
+                    <p id="type"><i class="fa-solid fa-puzzle-piece" style="color:#f1ee03;"></i></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="comments-section">
+            <h3 style="padding: 10px;">Comments</h3>
+            <!-- Comments will be dynamically inserted here via the script -->
+        </div>
+
+        <!-- Comment Form -->
+        <div class="form-section">
+            <h3 style="padding: 10px;">Leave a Comment</h3>
+            <form id="comment-form" class="form-fields">
+                <input id="username" type="text" name="username" placeholder="Your Name" required>
+                <textarea id="message-content" name="comment" placeholder="Your Comment" rows="4" required></textarea>
+            </form>
+            <button id="submit-btn" class="btn btn-primary btn-custom-1 mt-3">Send</button>
+        </div>
+    </div>
+
+    <!-- Footer - section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <!-- Navigation Links -->
+                <div class="col-lg-3">
+                    <h2 class="footer-heading mb-4">Quick Link</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html"> About Us</a></li>
+                        <li><a href="../index.html #testimonials"> Testimonials</a></li>
+                        <li><a href="contact.html"> Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Information -->
+                <div class="col-lg-4">
+                    <h2 class="footer-heading mb-4">Contact</h2>
+                    <ul class="list-unstyled contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Amman,Jordan</li>
+                        <li><i class="fas fa-phone-alt"></i> +962 772694988</li>
+                        <li><i class="fas fa-envelope"></i> steamkiddy@gmail.com</li>
+                    </ul>
+                </div>
+                <!-- Social Media Icons -->
+                <div class="col-lg-3">
+                    <h2 class="footer-heading mb-4">Follow Us</h2>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/?_rdc=1&_rdr" class="social-icon"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/login" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <!-- Logo Section -->
+                <div class="col-lg-2 text-center">
+                    <img src="/images/logo.png" alt="Logo" class="footer-logo img-fluid mb-3">
+                </div>
+            </div>
+            <!-- Copyright Section -->
+            <div class="row pt-3 mt-4 text-center">
+                <div class="col-md-12">
+                    <div class="border-top pt-5">
+                        <h6>
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | Stream
+                            <i class="icon-heart text-danger" aria-hidden="true"></i>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <script src="../js/checklogPages.js"></script>
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/jquery-migrate-3.0.0.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/jquery.animateNumber.min.js"></script>
+    <script src="/js/jquery.fancybox.min.js"></script>
+    <script src="/js/jquery.stellar.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/bootstrap-datepicker.min.js"></script>
+    <script src="/js/aos.js"></script>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/main2.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>profile page</title>
+  <link rel="shortcut icon" href="/images/logo_highres.png" type="image/x-icon">
+
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styleee.css">
+
+</head>
+
+<body>
+
+  <div class="profile-page">
+    <div class="content">
+      <div class="content__cover">
+        <div class="content__avatar"></div>
+        <div class="content__bull"><span>
+        </div>
+      </div>
+      <button class="go-back" onclick="goBack()">Go Back</button>
+
+      <div class="content__actions">
+        <a><img src="../images/logo_highres.png" id="logo"></a>
+      </div>
+      <div class="content__title">
+        <h1 style="font-size: 40px; color: #FD5B4E;" id="stdName">Students Name</h1>
+        <span style="font-size: 30px;color: #3DB5D8; margin-top: 50px;">Keep Going Champ!</span>
+      </div>
+      <div id="streak">
+        <p style="font-size: 4em; color: #F0C22E;">50</p>
+        <img src="../images/Streak.png">
+      </div>
+
+    </div>
+    <div class="bg">
+      <div>
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+    <div class="theme-switcher-wrapper" id="theme-switcher-wrapper"><span>Themes color</span>
+      <ul>
+        <li><em class="is-active" data-theme="orange"></em></li>
+        <li><em data-theme="green"></em></li>
+        <li><em data-theme="purple"></em></li>
+        <li><em data-theme="blue"></em></li>
+        <li><em data-theme="try"></em></li>
+      </ul>
+    </div>
+    <div class="theme-switcher-button" id="theme-switcher-button">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+        <path fill="currentColor"
+          d="M352 0H32C14.33 0 0 14.33 0 32v224h384V32c0-17.67-14.33-32-32-32zM0 320c0 35.35 28.66 64 64 64h64v64c0 35.35 28.66 64 64 64s64-28.65 64-64v-64h64c35.34 0 64-28.65 64-64v-32H0v32zm192 104c13.25 0 24 10.74 24 24 0 13.25-10.75 24-24 24s-24-10.75-24-24c0-13.26 10.75-24 24-24z">
+        </path>
+      </svg>
+    </div>
+  </div>
+
+  <div id="motivation">Keep the Good Work Going</div>
+  <div class="row d-flex justify-content-center mt-100" id="profile_counter">
+    <div class="col-md-8" style="margin-bottom: 30px;">
+
+      <div class="progress red">
+        <span class="progress-left">
+          <span class="progress-bar"></span>
+        </span>
+        <span class="progress-right">
+          <span class="progress-bar"></span>
+        </span>
+        <div class="progress-value">22%</div>
+      </div>
+
+      <div class="progress yellow">
+        <span class="progress-left">
+          <span class="progress-bar"></span>
+        </span>
+        <span class="progress-right">
+          <span class="progress-bar"></span>
+        </span>
+        <div class="progress-value">50%</div>
+      </div>
+
+      <div class="progress green">
+        <span class="progress-left">
+          <span class="progress-bar"></span>
+        </span>
+        <span class="progress-right">
+          <span class="progress-bar"></span>
+        </span>
+        <div class="progress-value">40%</div>
+      </div>
+
+      <div class="progress purple">
+        <span class="progress-left">
+          <span class="progress-bar"></span>
+        </span>
+        <span class="progress-right">
+          <span class="progress-bar"></span>
+        </span>
+        <div class="progress-value">50%</div>
+      </div>
+
+      <div class="progress blue">
+        <span class="progress-left">
+          <span class="progress-bar"></span>
+        </span>
+        <span class="progress-right">
+          <span class="progress-bar"></span>
+        </span>
+        <div class="progress-value">20%</div>
+      </div>
+
+    </div>
+    <div style="margin-top: 40px;">
+    </div>
+  </div>
+  </div>
+
+  <script src="../js/java.js"></script>
+  <script>
+    function goBack() {
+      const email = getQueryParam('email'); // Assuming you have getQueryParam function in scope
+      if (email) {
+        // Redirect to the homepage with the email as a query parameter
+        window.location.href = `../index.html?email=${encodeURIComponent(email)}`;
+      } else {
+        // If email is not found, just redirect to the homepage
+        window.location.href = '../index.html';
+      }
+    }
+
+    function getQueryParam(name) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(name);
+    }
+  </script>
+</body>
+
+</html>
